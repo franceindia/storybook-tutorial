@@ -49,7 +49,7 @@ const Mockstore = ({ taskboxState, children }) => (
 export default {
   component: TaskList,
   title: 'TaskList',
-  decorators: [(story) => <div style={{ margin: '3rem' }}>{story()}</div>],
+  decorators: [(story) => <div style={{ margin: '1rem'}}>{story()}</div>],
   tags: ['autodocs'],
   excludeStories: /.*MockedState$/,
 };
